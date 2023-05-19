@@ -3,7 +3,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Chemin d'accès au fichier CSV
-filename = '/Users/paulbergeon/Documents/barique/Classeur13.csv'
+filename = '/Users/paulbergeon/Documents/mémoireESSCA/Classeur13.csv'
 
 # Lecture du fichier CSV
 df = pd.read_csv(filename, delimiter=';')
