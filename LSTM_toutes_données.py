@@ -9,7 +9,7 @@ from keras.layers import LSTM, Dense
 import matplotlib.pyplot as plt
 
 # Chemin d'accès au fichier CSV
-filename = '/Users/paulbergeon/Documents/barique/Donnéescomplet.csv'
+filename = '/Users/paulbergeon/Documents/mémoireESSCA/Donnéescomplet.csv'
 
 # Lecture du fichier CSV et conversion de la colonne Date en format datetime
 with open(filename, 'rb') as f:
