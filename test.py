@@ -10,7 +10,7 @@ import chardet
 
 
 
-with open('/Users/paulbergeon/Documents/barique/databtc.csv', 'rb') as f:
+with open('/Users/paulbergeon/Documents/mémoireESSCA/databtc.csv', 'rb') as f:
     result = chardet.detect(f.read())
     
 df = pd.read_csv('/Users/paulbergeon/Documents/barique/databtc2.csv', encoding=result['encoding'])
