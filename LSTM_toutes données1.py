@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 
-data = pd.read_csv("/Users/paulbergeon/Documents/barique/Donnéescomplet.csv", delimiter=";")
+data = pd.read_csv("/Users/paulbergeon/Documents/mémoire/Donnéescomplet.csv", delimiter=";")
 
 # Supprimer la colonne "Date"
 data = data.drop("Date", axis=1)
