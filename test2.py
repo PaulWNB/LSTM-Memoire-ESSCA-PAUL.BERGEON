@@ -7,7 +7,7 @@ import numpy as np
 import chardet
 from datetime import datetime
 # Charger les données à partir du fichier CSV
-filename = '/Users/paulbergeon/Documents/barique/Classeur10.csv' 
+filename = '/Users/paulbergeon/Documents/mémoireESSCA/Classeur10.csv' 
 
 with open(filename, 'rb') as f:
     result = chardet.detect(f.read())
