@@ -10,7 +10,7 @@ from keras.optimizers import RMSprop, SGD
 import matplotlib.pyplot as plt
 
 # Chemin d'accès au fichier CSV
-filename = '/Users/paulbergeon/Documents/barique/donnéescomplet.csv'
+filename = '/Users/paulbergeon/Documents/mémoireESSCA/donnéescomplet.csv'
 
 # Lecture du fichier CSV et conversion de la colonne Date en format datetime
 with open(filename, 'rb') as f:
